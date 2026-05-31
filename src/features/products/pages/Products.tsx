@@ -13,7 +13,8 @@ const products: Product[] = [
 
 
 import { Box, Heading, SimpleGrid } from "@chakra-ui/react";
-import ProductCard from "@/components/ProductCard";
+
+import { ProductCard } from "@/features/products/components";
 
 export default function Products() {
   return (
